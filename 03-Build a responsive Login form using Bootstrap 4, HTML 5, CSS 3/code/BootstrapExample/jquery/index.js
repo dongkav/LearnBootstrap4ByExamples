@@ -1,8 +1,3 @@
-/*
-Nguyen Duc Hoang (Mr)
-Youtube channel: https://www.youtube.com/c/nguyenduchoang
-Programming tutorial channel
-*/
 function isEmail(inputEmail) {
     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 	return regex.test(inputEmail);
